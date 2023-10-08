@@ -246,11 +246,22 @@ public class Frame extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void menuAboutMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_menuAboutMouseClicked
-        JOptionPane.showMessageDialog(null, "Essa aplicação tem por objetivo resolver exercicios sobre Tipos de triângulos e suas\n Possiveis formações.");
+        JOptionPane.showMessageDialog(null,
+                "Sobre\n\n"
+              + "Essa aplicação tem por objetivo resolver exercicios\n"
+              + "sobre Tipos de triângulos e suas Possiveis formações."
+              , "Sobre", JOptionPane.INFORMATION_MESSAGE
+        );
     }//GEN-LAST:event_menuAboutMouseClicked
 
     private void menuHelpMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_menuHelpMouseClicked
-        JOptionPane.showMessageDialog(null, "Para Usar é bem simples basta apenas informar os valores dos segmentos de A, B, e C.\n após isso clique em 'Verificar Tipo'.");
+        JOptionPane.showMessageDialog(null,
+                "Ajuda\n\n"
+              + "Para Usar é bem simples basta apenas informar os valores\n"
+              + "dos segmentos de A, B, e C. após isso clique em\n"
+              + "'Verificar Tipo'."
+              , "Ajuda", JOptionPane.INFORMATION_MESSAGE
+        );
     }//GEN-LAST:event_menuHelpMouseClicked
 
     private void menuExitMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_menuExitMouseClicked
